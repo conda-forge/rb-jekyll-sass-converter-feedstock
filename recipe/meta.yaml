@@ -22,7 +22,7 @@ requirements:
     - ruby
   run:
     - ruby
-    - rb-sass >=3.4,<4
+    - rb-sassc >=2.0.1,<3.0
 
 test:
   commands:
