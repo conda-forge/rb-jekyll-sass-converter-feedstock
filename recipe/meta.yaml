@@ -1,5 +1,5 @@
 {% set name = "jekyll-sass-converter" %}
-{% set version = "2.0.1" %}
+{% set version = "3.1.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: a302048fdad95e1c810a0833fa82b8759c63b30653dd2f9cdd22e332eec55f76
+  sha256: 83925d84f1d134410c11d0c6643b0093e82e3a3cf127e90757a85294a3862443
 
 build:
   noarch: generic
